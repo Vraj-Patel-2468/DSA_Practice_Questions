@@ -18,8 +18,6 @@ def search(nums: list[int], target: int) -> int:
             else:
                 R = mid - 1        
     return -1
- 
-        
 
 def main():
     nums = [15, 18, 2, 3, 6, 12]
@@ -29,4 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
